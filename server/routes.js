@@ -1,3 +1,5 @@
+//sets paths to urls
+
 var controllers = require('./controllers');
 var router = require('express').Router();
 

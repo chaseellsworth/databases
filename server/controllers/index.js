@@ -1,3 +1,5 @@
+///handles concern between client and server (request and response)
+
 var models = require('../models');
 var bluebird = require('bluebird');
 
@@ -20,3 +22,5 @@ module.exports = {
   }
 };
 
+///from the DOM --> to the app.js(gate to server) --> to the router --> to the controller (as a request) --> ||to the model
+//-->to the index.js--db --> to the database --> back to the model --> || back to the controller --> back to the client
